@@ -1,6 +1,8 @@
 # Game of Thrones Death Predictor
 #### Exploring Use Cases for Machine Learning in Fiction
 
+[![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/megano/storytelling/blob/master/eda/GOT-analysis.ipynb)
+
 ## Overview
 This model predicts who is most likely to die next on Game of Thrones (GOT). It uses data sourced from the GOT wiki, and makes a prediction for a snapshot in time - the end of the 5th book. Several possible models are explored and contrasted including Logistic Regression, Naive Bayes, Decision Trees, and Random Forest.  
 
