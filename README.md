@@ -65,14 +65,14 @@ The workflow was: acquire data, look for insights and patterns with an explorato
 + Sklearn.linear_model - LogisticRegression
 + Sklearn.ensemble - RandomForestClassifier
  
-## LIMITATIONS
+## Limitations
 There are several limitations to this kind of model.
 + Generalizability: One of the most helpful features for predicting death was the popularity score, so if you wanted to use a model like this to win bets with friends about another fantasy series that doesn’t have an extensive online wiki dedicated to it that might not work so well.
 + Books vs TV series: The model is trained on book data, and the TV series differs from the books. The model does not account for characters who have died in the TV series, but are still alive in the book series. For example, Stannis was among those predicted next to die, but in the TV show he had already died.
 + Snapshot in Time: As the story progresses more characters will die. The model currently uses the snapshot of the end of the 5th book.
 + Resurrection: The model currently does not track how many times a character dies. Characters who come back from the dead by the end of the 5th book are counted as alive. 
 
-## FUTURE WORK
+## Future Work
 + Iterate on the model: I used basic ML models here since I wanted a high level of explainability and insight into which features impacted predictions. It would be interesting to see results of more complex ML models & feature engineering.
 + Moving Window: The model could make predictions for different time periods of the story.
 + Increase Generalizability: It’d be interesting to try building a generalized plot predictor that performed well across many different fantasy series.
