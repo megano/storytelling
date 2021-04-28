@@ -1,10 +1,8 @@
-# Game of Thrones Death Predictor
-#### Exploring Use Cases for Machine Learning in Fiction
+# Use ML to Model Who Will Die in Game of Thrones 
+<img src="images/got.jpg">
 
 [![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/megano/storytelling/blob/master/eda/GOT-analysis.ipynb)
 
-<img src="images/got.jpg">
-#Use ML to Model Who Will Die in Game of Thrones 
 Project Status: Complete
  
 ## Table of contents
